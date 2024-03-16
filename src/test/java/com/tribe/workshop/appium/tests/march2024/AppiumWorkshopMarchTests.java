@@ -48,7 +48,7 @@ public class AppiumWorkshopMarchTests {
         Thread.sleep(5000);
 
 //        driver.close(); //deprecated
-//        driver.quit();
+        driver.quit();
 
     }
 }

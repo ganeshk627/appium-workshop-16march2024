@@ -6,6 +6,10 @@ Jumpstart your mobile testing journey with appium
 2. [NodeJS LTS](https://nodejs.org/en/download/current)
 3. [Appium 2.5](https://appium.io/docs/en/2.5/quickstart/install/)
 4. [Appium drivers](https://appium.io/docs/en/2.5/ecosystem/drivers/)
+```bash
+appium driver list
+appium driver install uiautomator2
+```
 5. [Flutter driver](https://github.com/appium/appium-flutter-driver) - if needed
 6. [Appium Inspector](https://github.com/appium/appium-inspector/releases)
 7. [Appium Doctor](#) -Health check
