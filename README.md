@@ -42,7 +42,7 @@ adb shell dumpsys window | grep -E 'mCurrentFocus'
 ### For Windows:
 
 ```bash
-adb shell dumpsys window | find "mCurrentFocus
+adb shell dumpsys window | find "mCurrentFocus"
 ```
 
 ### Output
@@ -50,9 +50,9 @@ adb shell dumpsys window | find "mCurrentFocus
 ```bash
   mCurrentFocus=Window{c5d6e72 u0 com.android.calculator2/com.android.calculator2.Calculator}
 ```
-Package Name: *com.android.calculator2*
+__Package Name__: _com.android.calculator2_
 
-Activity Name: *com.android.calculator2.Calculator*
+__Activity Name__: *com.android.calculator2.Calculator*
 
 
 # 05. Locator Strategies
