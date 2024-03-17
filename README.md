@@ -209,7 +209,7 @@ public class FirstTest {
 2. Click ```Inspect``` --> ```Integrate Appium Inspector```
 3. Copy the capabilities from BrowserStack
 4. Open the ```Appium Inspector``` app and set the capabilities from BrowserStack
-5. Select ```Attach to Session...``` then click the refresh (:arrows_counterclockwise:) button to load sessions
+5. Select ```Attach to Session...``` then click the refresh ( :arrows_counterclockwise: ) button to load sessions
 6. Click ```Attach Session``` to lauch the Appium Inspector
 
 # 09. Mobile Gestures
