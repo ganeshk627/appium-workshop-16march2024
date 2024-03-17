@@ -12,10 +12,10 @@ appium driver install uiautomator2
 ```
 5. [Flutter driver](https://github.com/appium/appium-flutter-driver) - if needed
 6. [Appium Inspector](https://github.com/appium/appium-inspector/releases)
-7. [Appium Doctor](#) -Health check
+7. [Appium Doctor](https://github.com/appium/appium-doctor) -Health check
 8. [Android Studio](https://developer.android.com/studio)
 9. [Android Virtual Device](https://developer.android.com/studio/run/managing-avds) or Real Device or Cloud Device
-10. [Scrcpy](https://github.com/Genymobile/scrcpy) -Screensharing library for real device
+10. [Scrcpy](https://github.com/Genymobile/scrcpy) -Screen sharing library for real device
 
 # 01. Setup and start AVD or Real Device
 
