@@ -76,3 +76,56 @@ __Activity Name__: *com.android.calculator2.Calculator*
 
 
 # 07. 
+
+
+# 10. [Appium Pro](https://appiumpro.com/editions)
+
+[Sai Krishna](https://www.linkedin.com/in/sai-krishna-3755407b/) thoughtworks
+
+# 11. [Appium Gestures Plugin](https://github.com/AppiumTestDistribution/appium-gestures-plugin)
+
+__11.1. Install Plugin__
+```bash
+appium plugin install --source=npm appium-gestures-plugin
+```
+
+__11.2. Activate Plugin__
+__11.2.1. Activate Plugin by Starting Appium Server through CLI__
+```bash
+appium --use-plugins=gestures
+```
+__11.2.2. Activate Plugin by Starting Appium Server through Java Code__
+```bash
+AppiumServiceBuilder appiumServerArguments = new AppiumServiceBuilder()
+        .usingAnyFreePort()
+        .withIPAddress("127.0.0.1")
+        .withTimeout(Duration.ofMinutes(5))
+        .withArgument(GeneralServerFlag.USE_PLUGINS, "gestures");
+```
+
+
+
+# 12. [Appium Wait Plugin](https://github.com/AppiumTestDistribution/appium-wait-plugin)
+
+__12.1. Install Plugin__
+```bash
+appium plugin install --source=npm appium-wait-plugin
+```
+
+__12.2. Activate Plugin__
+__12.2.1. Activate Plugin by Starting Appium Server through CLI__
+```bash
+appium --use-plugins=element-wait
+```
+__12.2.2. Activate Plugin by Starting Appium Server through Java Code__
+```bash
+AppiumServiceBuilder appiumServerArguments = new AppiumServiceBuilder()
+        .usingAnyFreePort()
+        .withIPAddress("127.0.0.1")
+        .withTimeout(Duration.ofMinutes(5))
+        .withArgument(GeneralServerFlag.USE_PLUGINS, "gestures,element-wait");
+```
+
+
+# *** OTHER LINKS *** 
+[Test Automation of Real-time, Multi-user Games by Anand Bagmar](https://youtu.be/drb6DRG768k?si=RuFSz9VfP_AA0QtE)

@@ -21,7 +21,7 @@ import java.time.Duration;
 
 public class AppiumWorkshopMarchTests2 {
 
-    private static final Logger logger = LogManager.getLogger(VodQATests.class);
+    private static final Logger logger = LogManager.getLogger(AppiumWorkshopMarchTests2.class);
     AppiumDriverLocalService appiumService;
     private AndroidDriver driver;
     private WebDriverWait wait;

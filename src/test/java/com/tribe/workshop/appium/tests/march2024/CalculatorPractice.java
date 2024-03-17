@@ -21,7 +21,7 @@ import java.time.Duration;
 import static org.testng.Assert.assertEquals;
 
 public class CalculatorPractice {
-    private static final Logger logger = LogManager.getLogger(VodQATests.class);
+    private static final Logger logger = LogManager.getLogger(CalculatorPractice.class);
 
     AppiumDriverLocalService appiumService;
     private AndroidDriver driver;
