@@ -195,10 +195,22 @@ public class FirstTest {
 1. Right click on IntelliJ workspace --> ```Run 'FirstTest'```
 
 
-# 08. Inspect BrowserStack Mobile in Local
+# 08. Inspect BrowserStack Mobile
+
+## 08.2. Inspect in BrowserStack
+1. Launch application in [BrowserStack App Live](https://app-live.browserstack.com/)
+2. Click ```Inspect``` --> ```Integrate Appium Inspector```
+3. Click ```Open Appium Inspector``` 
+4. Then new tab opened with Appium Inspector
+
+
+## 08.2. Inspect in Local Appium Inspector App
 1. Launch application in [BrowserStack App Live](https://app-live.browserstack.com/)
 2. Click ```Inspect``` --> ```Integrate Appium Inspector```
 3. Copy the capabilities from BrowserStack
+4. Open the ```Appium Inspector``` app and set the capabilities from BrowserStack
+5. Select ```Attach to Session...``` then click the refresh (:arrows_counterclockwise:) button to load sessions
+6. Click ```Attach Session``` to lauch the Appium Inspector
 
 # 09. Mobile Gestures
 - Tap
