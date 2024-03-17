@@ -24,6 +24,9 @@ adb devices
 ```
 
 # 02. Start Appium Server
+```bash
+appium
+```
 
 # 03. Connect Appium Inspector through JSON Capabilities
 
@@ -61,7 +64,13 @@ __Activity Name__: *com.android.calculator2.Calculator*
 
 # 05. Locator Strategies
 
-[Android Developer Reference](https://developer.android.com/reference/androidx/test/uiautomator/UiSelector)
+1. Id
+2. Accessibility Id
+3. Name
+4. Xpath - slower
+5. UIAutomator - faster and better option than xpath;
+- [UISelector](https://developer.android.com/reference/androidx/test/uiautomator/UiSelector)
+6. Class Name
 
 # 06. Writing the First Script
 
